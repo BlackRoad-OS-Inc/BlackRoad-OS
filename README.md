@@ -1,60 +1,20 @@
-# BlackRoad OS
+# BlackRoad-OS
 
-Your AI runs on your device. Your data stays yours. Your agents work for you.
+BlackRoad OS — your AI runs on your device. 7 nodes, 52 TOPS, 254 repos, $38/month.
 
-## What Is This
+## Organization
 
-BlackRoad OS turns any device you own into AI infrastructure. Five Raspberry Pis, two cloud droplets, a WireGuard mesh, and zero vendor lock-in. Total cost: $38/month.
+**BlackRoad-OS-Inc** — Corporate root — all IP, strategy, and governance
 
-This repo is the core platform under [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc).
+## BlackRoad OS
 
-## Products
+BlackRoad OS is a distributed AI operating system — 20 domains, 668 repositories, 1,000 AI agents, and sovereign infrastructure running on Raspberry Pis and Hailo-8 accelerators. No cloud dependency.
 
-| Product | What It Does | Link |
-|---------|-------------|------|
-| **Lucidia** | AI companion with persistent memory | [blackroadai.com](https://blackroadai.com) |
-| **BlackBox IDE** | AI coding assistant on your hardware | [blackboxprogramming.io](https://blackboxprogramming.io) |
-| **RoadWork** | AI tutoring, free for K-12 | Coming soon |
-| **RoadChain** | Layer-1 blockchain from scratch | [roadchain.io](https://roadchain.io) |
-| **Prism Console** | Fleet dashboard and monitoring | $99/mo |
-| **RoundTrip** | 109 AI agents, real-time chat | [roundtrip.blackroad.io](https://roundtrip.blackroad.io) |
+- [blackroad.io](https://blackroad.io) — Main platform
+- [docs.blackroad.io](https://docs.blackroad.io) — Documentation
+- [GitHub](https://github.com/BlackRoad-OS-Inc) — This organization
 
-## Stack
+**Language:** HTML
 
-| Layer | What | Runs On |
-|-------|------|---------|
-| Edge | Caddy TLS, 19 domains | Gematria |
-| AI | Ollama, 52 TOPS Hailo-8 | Cecilia + Octavia |
-| Data | PostgreSQL, Redis, Qdrant, MinIO | Alice + Cecilia |
-| Platform | Gitea (254 repos), NATS, Docker | Octavia |
-| DNS | PowerDNS, Pi-hole | Lucidia + Alice |
-| Mesh | WireGuard, 7 nodes, 12 connections | All |
 
-## 65 Road Fleet Forks
-
-Every dependency forked and controlled. [Full registry](https://github.com/BlackRoad-OS-Inc/Forks).
-
-## Research
-
-G(n) = n^(n+1)/(n+1)^n. Integers in, rationals out. Connects to quantum mechanics, Cayley trees, path integrals. [Papers](https://github.com/BlackRoad-OS-Inc/amundson-research).
-
-## Pricing
-
-| Plan | Price | Includes |
-|------|-------|----------|
-| Free | $0 | RoadWork tutoring, community |
-| Rider | $29/mo | Lucidia AI, BlackBox IDE |
-| Paver | $99/mo | + Prism Console, fleet monitoring |
-| Enterprise | $299/mo | + Dedicated infra, SLA |
-
-## Company
-
-BlackRoad OS, Inc. Delaware C-Corp, founded November 17, 2025. Sole founder: Alexa Louise Amundson.
-
-## License
-
-Proprietary. BlackRoad OS, Inc. All rights reserved.
-
----
-
-*Remember the Road. Pave Tomorrow.*
+*© 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*
